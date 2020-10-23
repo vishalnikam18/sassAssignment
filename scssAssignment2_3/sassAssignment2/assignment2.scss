@@ -1,0 +1,45 @@
+@import "./mixinAssignment2";
+@import "./variableAssignment2";
+
+button
+{
+    max-width: 12px;
+    @include buttonCommon($borderradius,$padding,$bgcolor,$broder,$minwidth,$fontfamily,$fontsize,$color);
+}
+
+.primaryButton
+{
+   @extend button;
+    border:1px solid #8bc34a;
+    &:hover
+    {
+    
+        border:1px solid #9dce5d;
+        background-color: #9dce5d;
+        color: #ffffff;
+    }
+    
+}
+.secondaryButton
+{
+    @extend button;
+        background-color: #FFFFFF;  
+        color: #2095f2;
+      border: 1px solid #2095f2; 
+      &:hover{
+        background-color: #2095f2;  color: #FFFFFF;  border: 1px solid #2095f2; 
+      }
+}
+.disabledPrimary
+{
+    background-color: #eeeeee;  
+    color: #999999; 
+     border: 1px solid #eeeeee; 
+}
+.disabled
+{
+    @extend button;
+    background-color: #ffffff;
+      color: #999999; 
+     border: 1px solid #cccccc; 
+}

@@ -1,0 +1,11 @@
+@import "variableSassAssignment3";
+@mixin theme($bgcolor,$leftcontent,$rightcontent,$fontfamily,$buttonColor) 
+{
+    background-color: $bgcolor;
+    font-family: $fontfamily;
+        &:hover{
+            background-color: red;
+            font-display :$font;
+            
+        }
+}

@@ -1,0 +1,12 @@
+@import 'mixin.scss';
+@import 'variabless.scss';
+// @import 'mixin.scss';
+$primary-color : yellow;
+.c
+{
+    background-color: $primary-color;
+    margin: $margin;
+    padding: $padding;
+    @include mystyle(500px,500px,centre);    
+
+}

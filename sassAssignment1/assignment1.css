@@ -1,0 +1,30 @@
+.normalclass {
+  font-style: SegoUI;
+  font-size: 13px;
+  border-radius: 3px;
+  width: 300px;
+  height: 36px;
+  padding-left: 10px;
+  color: #666666;
+  background-color: #ffffff; }
+
+.disabledclass {
+  font-style: SegoUI;
+  font-size: 13px;
+  cursor: none;
+  border-radius: 3px;
+  width: 300px;
+  height: 36px;
+  padding-left: 10px;
+  color: #999999;
+  background-color: #eeeeee; }
+
+.errorclass {
+  border: 1px solid #f44336;
+  font-size: 13px;
+  border-radius: 3px;
+  width: 300px;
+  height: 36px;
+  padding-left: 10px;
+  color: #f44336;
+  background-color: #fde7e1; }

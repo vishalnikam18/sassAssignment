@@ -1,0 +1,26 @@
+@import "./mixinAssignment1";
+$color : #666666;
+$bgcolor:#ffffff;
+$fontstyle : SegoUI;
+
+//a mixin is created with some variables and according to our requirement we are providing the values @include
+.normalclass
+{
+    font-style: $fontstyle;
+    font-size: 13px;
+    @include normalInput(3px,300px,36px,10px,$color,$bgcolor);
+}
+.disabledclass
+{
+    font-style: $fontstyle;
+    font-size: 13px;
+    cursor: none;
+    @include normalInput(3px,300px,36px,10px,#999999,#eeeeee);
+}
+.errorclass
+
+{
+    border:1px solid #f44336 ;
+    font-size: 13px;
+    @include normalInput(3px,300px,36px,10px,#f44336 ,#fde7e1);
+}

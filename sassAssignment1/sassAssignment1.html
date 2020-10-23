@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignment1.css">
+</head>
+<body>
+    <script>
+        function change()
+        {
+            debugger;
+            var e = document.getElementById('error');
+            e.classList.add("errorclass");
+        }
+    </script>
+    <h1>
+        Inputs
+    </h1>
+    <br>
+    <span>Normal Input</span>
+    <br>
+    <form>
+    <input class="normalclass" type="text" placeholder="Normal Input" maxlength="12" size="12">
+    <br>
+    <br>
+    <span>Disabled Input</span>
+    <br>
+    <input class="disabledclass" type="text" placeholder="Disabled Input" disabled>
+    <br>
+    <br>
+    <span>Error Input</span>
+    <br>
+    <input id="error" class="normalclass" type="email" required placeholder="Error" oninvalid="change()">
+
+    <br>
+    <br>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

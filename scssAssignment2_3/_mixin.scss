@@ -1,0 +1,6 @@
+@mixin mystyle($width,$height,$text)
+{
+    width: $width;
+    height: $height;    
+    text-align:$text;
+}

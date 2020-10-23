@@ -1,0 +1,12 @@
+
+@mixin buttonCommon ($borderradius,$padding,$bgcolor,$border,$minwidth,$fontfamily,$fontstyle,$color)
+{
+    border-radius: $borderradius;
+    padding: $padding;
+    background-color: $bgcolor;
+    border: $border;
+    min-width: $minwidth;
+    font-family: $fontfamily;
+    font-size: $fontstyle;
+    color: $color;
+}

@@ -1,0 +1,9 @@
+@mixin normalInput($borderRadius,$width,$height,$paddingleft,$color,$bgcolor)
+{
+    border-radius: $borderRadius;
+    width: $width;
+    height: $height;
+    padding-left: $paddingleft;
+    color: $color;
+    background-color: $bgcolor; 
+}

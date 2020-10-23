@@ -1,0 +1,46 @@
+#outer {
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 900px;
+  height: 300px; }
+  #outer:hover {
+    background-color: red;
+    font-display: hello; }
+
+#inner {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 500px;
+  height: 250px;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif; }
+  #inner:hover {
+    background-color: salmon;
+    text-transform: uppercase; }
+
+#inner2 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 525px;
+  width: 350px;
+  height: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgreen; }
+  #inner2:hover {
+    background-color: cyan;
+    text-transform: uppercase; }
+
+button {
+  margin-left: 80px;
+  margin-top: 100px;
+  display: block;
+  width: 50%;
+  border: none;
+  background-color: orange;
+  padding: 14px 28px;
+  font-size: 16px;
+  text-align: center; }
+  button:hover {
+    background-color: cadetblue;
+    text-transform: uppercase; }
